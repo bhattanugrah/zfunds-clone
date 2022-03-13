@@ -1,0 +1,31 @@
+.nav{
+    width: 93%;
+    margin: auto;
+}
+
+.navContainer{
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+    max-width: 100%;
+}
+
+.expertBtn{
+    padding: 6px 16px;
+    border-radius: 30px;
+    background-color: #0C748C;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.menu{
+    flex: 1;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    align-items: center;
+}
