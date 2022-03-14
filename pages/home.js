@@ -3,6 +3,7 @@ import ThirdSection from "../components/ThirdSection";
 import Nav from "../components/Layout/Nav";
 import Head from "next/head";
 import styles from "../styles/Home.module.css"
+import CeoSection from "../components/Ceo";
 
 const Home = () => {
     return ( 
@@ -14,6 +15,7 @@ const Home = () => {
                 <link rel="icon" href="/favicon-zf.ico" />
             </Head>
             <Nav />
+
             <div className={styles.container}>
                 <div className={`px-5`}>
                     <div className="d-flex justify-content-between">
@@ -70,7 +72,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <ThirdSection/>
+            <ThirdSection />
+            <CeoSection />
         </div>
     )
 }
