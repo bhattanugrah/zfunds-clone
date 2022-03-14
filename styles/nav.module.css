@@ -22,10 +22,86 @@
 }
 
 .menu{
-    flex: 1;
-    font-size: 20px;
+    /* font-size: 20px; */
     display: flex;
     justify-content: space-between;
     margin-left: auto;
     align-items: center;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hiddenContainer{
+    position: absolute;
+    left: -100%;
+}
+
+.sideBarContainer{
+    position: absolute;
+    background: cyan;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    animation: sidebar-in 0.3s ease-in-out;
+}
+
+@keyframes sidebar-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0;
+    }
+}
+
+.sideMenu{
+    width: 80%;
+}
+
+.show{
+    display: none;
+}
+
+.sideMenu ul{
+    list-style-type: none;
+}
+
+.sideMenu ul li{
+    padding: 15px 0;
+    font-size: 1.3rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 768px){
+
+    .menuItems{
+        display: none;
+    }
+    .menu{
+        justify-content: end;
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger a i{
+        align-items: center;
+        font-size: 2rem;
+        color: black;
+        float: right;
+    }
+
+    .navContainer{
+        justify-content: space-between;
+    }
+
 }

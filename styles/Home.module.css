@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 .container {
   padding: 1rem 2rem;
 }
@@ -108,6 +110,122 @@
   margin-left: 0.5rem;
 }
 
+.heading{
+  font-size: 3rem;
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  color: #052F5F;
+}
+
+.subHeading{
+  font-size: 3rem;
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bolder;
+  color: #052F5F;
+}
+
+.mainContainer{
+  margin: 4rem 0;
+}
+
+.descriptionText{
+  font-size: 1.1rem;
+  margin-top: 3rem;
+  margin-bottom: 20px;
+  color: #052F5F;
+}
+
+.whatsappButton{
+  width: fit-content;
+}
+
+.whatsappButton button{
+  outline: none;
+  border: none;
+  background-color: #03A87C;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 20px;
+  color: white;
+  width: 240px;
+}
+
+.phoneImage {
+  max-width: 18%;
+  height: auto;
+  margin-right: 2rem;
+  align-self: center;
+}
+
+.secondSectionContainer{
+  padding: 2rem 0;
+}
+
+.secondSection{
+  background: transparent linear-gradient(263deg, #052F5F 0%, #010913 100%);
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.leftContent .heading p span{
+  color: #808A95;
+}
+
+.leftContent .heading p{
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+.leftContent{
+  max-width: 75%;
+  margin-left: 4rem;
+}
+
+.leftContent .leftContainer{
+  max-width: 75%;
+}
+
+.pointers .pointerTitle {
+  font-size: 1.8rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.pointers .pointerSubTitle{
+  font-size: 1.3rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.phoneImage2{
+  height: auto;
+  max-width: 18%;
+  align-self: center;
+}
+
+
+@media (max-width: 1024px){
+  .phoneImage2{
+    display: none;
+  }
+
+  .leftContent{
+    max-width: 100%;
+  }
+
+  .leftContainer{
+    max-width: 100%;
+  }
+  .leftContainer{
+    justify-content: center;
+  }
+   
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

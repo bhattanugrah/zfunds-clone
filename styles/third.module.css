@@ -1,0 +1,96 @@
+.mainContainer{
+    height: 100vh;
+    padding: 4rem 0;
+}
+
+.leftContainer{
+    max-width: 75%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.leftContent{
+    margin-left: 4rem;
+}
+
+.leftContainer .leftContent .title{
+    font-size: 2.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    color: #052F5F;
+}
+
+.leftContainer .leftContent .title span{
+    color: #8297AF;
+}
+
+.pointer .pointerTitle{
+    font-size: 1.8rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    color: #052F5F;
+}
+
+.pointer .pointerSubTitle{
+    font-size: 1.3rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    color: #052F5F;
+}
+
+.phoneImage {
+    max-width: 18%;
+    height: auto;
+    align-self: center;
+    margin-right: 2rem;
+}
+
+.lineBreak{
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+hr.lineBreak{
+    height: 2px;
+}
+
+.knowYourFundsContainer{
+    padding: 0 4rem;
+}
+
+.knowYourFundsContent{
+    align-items: center;
+    text-align: center;
+}
+
+.knowYourFundsContainer .knowYourFundsContent .knowYourFundsTitle{
+    font-size: 2.5rem;
+    font-family: 'Nato Sans', sans-serif;
+    color: #052F5F;
+}
+
+
+.knowYourFundsContainer .knowYourFundsContent .knowYourFundsTitle span{
+    font-family: 'Nato Sans', sans-serif;
+    font-weight: 700;
+}
+
+.knowYourFundsContainer .knowYourFundsContent .knowYourFundsSubTitle{
+    font-size: 1.4rem;
+    font-family: 'Nato Sans', sans-serif;
+    color: #052F5F;
+}
+
+.carouselItem{
+    width: 30%;
+    height: auto;
+    max-width: 33%;
+    padding-bottom: 4rem;
+}
+
+.carouselItem a img{
+    max-width: 90%;
+}
+
+
+
