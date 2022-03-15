@@ -22,25 +22,28 @@ const Home = () => {
 
             <div className={styles.container}>
                 <div className={`px-5`}>
-                    <div className="d-flex justify-content-between">
-                        <div className={`${styles.mainContainer}`}>
-                            <p className={`${styles.heading}`}>
-                                Make Your Investments
-                            </p>
-                            <p className={`${styles.subHeading}`}>
-                                Sahi.Asaan
-                            </p>
-                            <p className={`${styles.descriptionText}`}>
-                                With us you have a trusted ZFunds expert by your side each step of your investment journey.
-                            </p>
+                    <div className={`d-flex justify-content-between ${styles.firstSection}`}>
+                        <div>
+                            <div className={styles.mainContainer}>
+                                <p className={`${styles.heading}`}>
+                                    Make Your Investments
+                                </p>
+                                <p className={`${styles.subHeading}`}>
+                                    Sahi.Asaan
+                                </p>
+                                <p className={`${styles.descriptionText}`}>
+                                    With us you have a trusted ZFunds expert by your side each step of your investment journey.
+                                </p>
+                            </div>
                             <div className={`${styles.whatsappButton}`}>
                                 <button className="shadow"><i className="bi bi-whatsapp px-2"></i>Whatsapp Expert</button>
-                                <span><p className="text-center">Chat with an Expert Now</p></span>
-                            </div>
+                            <span><p className="text-center">Chat with an Expert Now</p></span>
                         </div>
-                        <div className={`${styles.phoneImage}`}>
-                            <img src="./mobile.png" className="img-fluid" alt="phone"/>
                         </div>
+                        <img src="./mobile.png" className={styles.phoneImage} alt="phone"/>
+                        {/* <div className={`${styles.phoneImage}`}>
+
+                        </div> */}
                     </div>
                 </div>
             </div>

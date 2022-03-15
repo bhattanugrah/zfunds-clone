@@ -5,13 +5,14 @@ import styles from "../styles/third.module.css";
 const ThirdSection = () =>{
     return(
         <div className={styles.mainContainer}>
-            <div className={`d-flex py-3`}>
+            <div className={`d-flex py-3 ${styles.leftMargin}`}>
                 <div className={`${styles.leftContainer}`}>
                     <div className={styles.leftContent}>
-                        <div>
-                            <p className={styles.title}>
-                                <span>How do we make </span>Investing Asaan?
+                        <div className={`d-flex flex-wrap justify-content-center ${styles.title}`}>
+                            <p>
+                                <span>How do we make </span>
                             </p>
+                            <p>Investing Asaan?</p>
                         </div>
                         <div className={`${styles.pointer}`}>
                             <div className="d-flex mt-5">
@@ -45,7 +46,7 @@ const ThirdSection = () =>{
                         We don't use jargons, ratios or numbers to explain you anything. We do this in 6 languages
                     </p>
                 </div>
-                <div className="d-flex flex-wrap justify-content-center">
+                <div className={`${styles.carouselSection}`}>
                     <div className={styles.carouselItem}>
                         <a><img src="./homecarousel1.png" className="img-fluid" alt="carousel-1" /></a>
                     </div>

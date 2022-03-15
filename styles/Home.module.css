@@ -153,7 +153,6 @@
 
 .phoneImage {
   max-width: 18%;
-  height: auto;
   margin-right: 2rem;
   align-self: center;
 }
@@ -217,10 +216,10 @@
   .leftContent{
     max-width: 100%;
   }
-
+/* 
   .leftContainer{
     max-width: 100%;
-  }
+  } */
   .leftContainer{
     justify-content: center;
   }
@@ -230,5 +229,80 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+
+@media (min-width: 960px) and (max-width: 1521px){
+  .phoneImage{
+    width: 18%;
+    max-width: 18%;
+  } 
+}
+
+@media (max-width: 959px){
+  .firstSection{
+    flex-direction: column;
+    margin: auto;
+    max-width: 100%;
+    padding-left: 0.5rem;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .phoneImage{
+    width: 100%;
+    position: static;
+    max-width: 156px;
+    align-self: center;
+    margin-top: 3rem;
+    margin-right: 0px;
+  }
+
+  .firstSection .heading{
+    text-align: center !important;
+    font-size: 1.75rem;
+  }
+
+  .firstSection .subHeading{
+    font-size: 1.75rem !important;
+    text-align: center;
+  }
+
+  .whatsappButton{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-top:   20px;
+  }
+
+  .secondSectionContainer .leftContainer .heading p{
+    font-size: 1.75rem !important;
+    text-align: center;
+  }
+
+  .secondSectionContainer .leftContainer .pointerTitle{
+    font-size: 1.2rem !important;
+  }
+
+  .secondSectionContainer .leftContainer .pointerSubTitle{
+    font-size: 1rem !important;
+  }
+
+  .secondSectionContainer .leftContent{
+    margin: 0 10px !important;
+    max-width: 90% !important;
+  }
+
+  .secondSection{
+    height: 100%;
+    padding: 4rem 0.5rem;
+    padding-right: 0;
+    flex-direction: column
+  }
+
+  .leftContent .leftContainer{
+    margin: 0 10px;
+    max-width: 90%;
   }
 }

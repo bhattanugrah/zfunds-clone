@@ -19,6 +19,9 @@
     color: #052F5F;
 }
 
+
+
+
 .leftContainer .leftContent .title span{
     color: #8297AF;
 }
@@ -80,15 +83,112 @@ hr.lineBreak{
     color: #052F5F;
 }
 
+/* .carouselItem{
+    width: 30%;
+    height: auto; */
+    /* max-width: 33%; */
+    /* padding-bottom: 4rem;
+    width: 254px;
+    max-width: 254px;
+    min-width: 110px;
+    text-align: center;
+    line-height: 110px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+} */
+
 .carouselItem{
     width: 30%;
-    height: auto;
+    margin: auto;
     max-width: 33%;
-    padding-bottom: 4rem;
+}
+
+.carouselSection{
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.carouselSection{
+    display: flex;
+    overflow-x: auto;
 }
 
 .carouselItem a img{
     max-width: 90%;
+}
+
+.leftContainer .leftContent .title p:nth-child(2){
+    margin-left: 1rem;
+}
+
+@media (max-width: 1521px) and (min-width: 960px){
+    .carouselItem a img{
+        max-width: 90%;
+    }
+}
+
+
+@media (max-width: 959px){
+    .leftContainer .leftContent .title{
+        font-size: 1.75rem !important;
+        text-align: right;
+    }
+
+    .phoneImage{
+        display: none;
+    }
+
+    .pointerTitle{
+        font-size: 1.2rem !important;
+    }
+
+    .pointerSubTitle{
+        font-size: 1rem !important;
+    }
+
+    .mainContainer{
+        padding: 2rem 0.5rem;
+        padding-right: 0;
+    }
+
+    .leftMargin{
+        max-width: 100%;
+    }
+
+    .leftContent{
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    .knowYourFundsTitle{
+        font-size: 1.5rem !important;
+    }
+
+    .knowYourFundsSubTitle{
+        font-size: 1rem !important;
+    }
+
+    .knowYourFundsContainer{
+        height: 100%;
+        padding: 0 0.2rem 0 0.5rem;
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .carouselItem{
+        width: 30%;
+        height: auto;
+        /* max-width: 33%; */
+        padding-bottom: 4rem;
+        width: 254px;
+        max-width: 254px;
+        min-width: 110px;
+        text-align: center;
+        line-height: 110px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
 
