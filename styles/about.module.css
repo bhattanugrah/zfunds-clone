@@ -1,0 +1,24 @@
+.mainContainer{
+    padding: 3rem;
+}
+
+.leftSide p{
+    font-family: 'Nato Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #052F5F;
+    font-weight: 700;
+}
+
+.leftSide{
+    width: 100%;
+    align-self: center;
+}
+
+.accordionContainer{
+    width: 100%;
+}
+
+.accordionContainer .accordionItem{
+    border-bottom: 1px solid #052F5F !important;
+    border: none;
+}

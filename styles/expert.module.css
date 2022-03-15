@@ -1,0 +1,50 @@
+
+.expertContainer{
+    padding: 3rem;
+    padding-bottom: 0;
+}
+
+.expertText{
+    align-self: center;
+}
+
+.expertText p:nth-child(1){
+    font-size: 2.3rem;
+    font-family: 'Nato Sans', sans-serif;
+    color: #052F5F;
+    font-weight: bold;
+}
+
+.expertText p:nth-child(2){
+    font-size: 1.1rem;
+    font-family: 'Nato Sans', sans-serif;
+    font-weight: normal;   
+}
+
+.expertImg img{
+    max-width: 60%;
+}
+
+.getStartedBtn button{
+    outline: none;
+    background-color: #03A87C;
+    border-radius: 5px;
+    width: 242px;
+    height: 48px;
+    border: none;
+    color: white;
+}
+
+.getStartedBtn{
+    width: fit-content;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.divider{
+    width: 100%;
+    height: 88px;
+    background: transparent linear-gradient(263deg, #052F5F 0%, #010913 100%);
+    margin-top: -0.01rem;
+    margin-bottom: 3rem;
+}

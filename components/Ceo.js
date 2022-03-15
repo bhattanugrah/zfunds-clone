@@ -1,14 +1,12 @@
 import React from "react";
 import styles from '../styles/ceo.module.css';
 import useEmblaCarousel from 'embla-carousel-react';
+import Carousel from 'react-elastic-carousel';
 
 
 const CeoSection = () =>{
-
-    const [emblaRef] = useEmblaCarousel()
-
     return(
-        <div className={styles.mainContainer}>
+        <div>
             <div className={`${styles.ceoQuoteSection}`}>
                 <div className={`d-flex align-items-center`}>
                     <div className={`${styles.leftSection}`}>
@@ -33,20 +31,12 @@ const CeoSection = () =>{
                         10L people<br/> benefited   
                     </p>
                 </div>
-            </div>
-            <div className={styles.reviewCarousel}>
-                <div className="embla" ref={emblaRef}>
-                    <div className="embla__container">
-                        <div className="embla__slide">
-                            <img src="/customer1" alt="customer1" />
-                        </div>
-                        <div className="embla__slide">
-                            <img src="/customer5" alt="customer2"/>
-                        </div>
-                        <div className="embla__slide">
-                            <img src="/customer6" alt="customer3" />
-                        </div>
-                    </div>
+                <div className={styles.reviewCarousel}>
+                    <Carousel itemsToShow={1}>
+                        <img src="./customer1.png" alt="customer1" />
+                        <img src="./customer5.png" alt="customer1" />
+                        <img src="./customer6.png" alt="customer1" />
+                    </Carousel>
                 </div>
             </div>
         </div>

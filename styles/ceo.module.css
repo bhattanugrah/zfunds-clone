@@ -1,6 +1,3 @@
-.mainContainer{
-    height: 100vh;
-}
 
 .ceoQuoteSection{
     display: flex;
@@ -61,3 +58,14 @@
     margin: 0 5rem;
 }
 
+.reviewCarousel{
+    padding: 0 3rem;
+}
+
+.reviewCarousel img{
+    max-width: 93%;
+}
+
+.rec.rec-arrow {
+    color: white !important;
+}

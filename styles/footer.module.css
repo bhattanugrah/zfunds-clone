@@ -1,0 +1,79 @@
+
+.footer{
+    font-size: 0.75rem;
+}
+
+.footer{
+    padding: 2rem 1rem;
+    background-color: #e0e5eb;
+}
+
+.footerContainer{
+    padding: 0 20px;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto !important;
+}
+
+.footer a{
+    color: #052f5f;
+    text-decoration: none;
+    display: block;
+    transition: all 0.5s;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+.copy{
+    text-align: right;
+}
+
+.alignItemFlexEnd{
+    align-items: flex-end;
+}
+
+.mr3{
+    margin-right: 3rem;
+}
+
+.fontW{
+    font-family: 'Nato Sans', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px 8px;
+    margin-right: 10px;
+}
+
+.icon a{
+    align-self: center;
+}
+
+.icon a img{
+    max-width: 100%;
+}
+
+.footerLogo .Logo{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Nato Sans', sans-serif;
+    display: block;
+    margin-bottom: 8px;
+    color: #052f5f;
+}
+
+
+.flw .f1{
+    font-weight: bold;
+    font-family: 'Nato Sans', sans-serif;
+    color: #052f5f;
+}
+
+

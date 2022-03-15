@@ -4,6 +4,10 @@ import Nav from "../components/Layout/Nav";
 import Head from "next/head";
 import styles from "../styles/Home.module.css"
 import CeoSection from "../components/Ceo";
+import Expert from "../components/Expert";
+import AboutUs from "../components/AboutUs";
+import { Comparison } from "../components/Comparison";
+import { Footer } from "../components/Layout/Footer";
 
 const Home = () => {
     return ( 
@@ -74,6 +78,10 @@ const Home = () => {
             </section>
             <ThirdSection />
             <CeoSection />
+            <Expert />
+            <AboutUs />
+            <Comparison/>
+            <Footer />
         </div>
     )
 }
