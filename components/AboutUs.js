@@ -23,8 +23,11 @@ const AboutUs = () =>{
                                 </button>
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div className="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div className={`accordion-body ${styles.accordionBody}`}>
+                                    ZFunds is India's only Mutual Funds Platform where you can get advice from top experts about your investments.You can download our app or send us a message on WhatsApp and an expert will help you plan your investments.
+                                    <div className="mt-3">
+                                        <a href="#">Know more about us</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +39,7 @@ const AboutUs = () =>{
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    We have integrated with Bombay Stock Exchange to process your transactions. This means that your money never enters ZFunds bank account. It directly goes from you to BSE and then to the Mutual Fund company you invest in , ensuring 100% safety.
                                 </div>
                             </div>
                         </div>
@@ -48,7 +51,7 @@ const AboutUs = () =>{
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    With ZFunds you invest in Regular Mutual Funds, which means hat the Mutual Fund company you choose to invest with pays your ZFunds Expert a small commission. There is no other fees that we charge.
                                 </div>
                             </div>
                         </div>
@@ -60,7 +63,7 @@ const AboutUs = () =>{
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    You can simply download our App here. Or drop us a WhatsApp here.
                                 </div>
                             </div>
                         </div>

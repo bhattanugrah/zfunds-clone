@@ -41,12 +41,15 @@
 }
 
 .sideBarContainer{
-    position: absolute;
-    background: cyan;
+    position: fixed;
+    background: transparent linear-gradient(263deg, #052F5F 0%, #010913 100%);
     overflow: hidden;
-    width: 50%;
+    width: 55%;
     height: 100%;
     top: 0;
+    color: white;
+    font-family: 'Nato Sans', sans-serif;
+    font-weight: 700;
     animation: sidebar-in 0.3s ease-in-out;
 }
 

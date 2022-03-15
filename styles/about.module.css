@@ -22,3 +22,11 @@
     border-bottom: 1px solid #052F5F !important;
     border: none;
 }
+
+.accordionBody a{
+    font-family: 'Nato Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #052F5F;
+}
+

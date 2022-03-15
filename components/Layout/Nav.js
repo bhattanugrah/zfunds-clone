@@ -39,7 +39,7 @@ const Nav = () =>{
                         <a><i className="bi bi-list"></i></a>
                     </div>
                 </div>
-                <div className={active?`d-block py-5 ${navStyles.sideBarContainer} `:`${navStyles.hiddenContainer}`}>
+                <div className={active?`d-block py-5  ${navStyles.sideBarContainer} `:`${navStyles.hiddenContainer}`}>
                     <div className={`${navStyles.sideMenu}`}>
                         <ul>
                             <li>
