@@ -1,0 +1,140 @@
+.closeIcon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.signIn .leftSec{
+    position: relative;
+    background: rgba(3, 168, 124, 0.2);
+    text-align: left;
+    height: 405px;
+    padding: 73px 14px 0 14px;
+}
+
+.signIn .leftSec .padding {
+    padding: 0 10px;
+}
+
+
+.signIn .detailBox{
+    padding: 0 8px;
+}
+
+.signIn .form-group label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.rightSign {
+    position: relative;
+    top: 83px;
+    text-align: left;
+    padding: 0 50px 0 30px;
+}
+
+.signIn label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.signIn .inputControl{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.signIn .signBtn{
+    font-size: 1rem;
+    width: 100%;
+    background: #03a87c;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.rightSign .pointer{
+    color: #0c748c;
+}
+
+.signIn .formWrap{
+    min-height: 180px;
+}
+
+.signIn .inputControl{
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    line-height: 1.42;
+}
+
+@media (max-height: 959px){
+    .portfolioLoginModal .rightSign {
+        position: static;
+        text-align: left;
+        padding: 0 50px 0 30px;
+        margin-top: 1rem;
+    }
+
+    .signIn .formWrap{
+        min-height: 0;
+        margin-bottom: 1rem;
+    }
+
+    .signIn .leftSec{
+        height: auto;
+    }
+
+    .portfolioLoginModal .signIn{
+        padding: 2rem !important;
+    }
+
+}
+
+
+@media (min-width: 1367px) and (max-width: 1920px){ 
+    .signIn .leftSec {
+        height: 562px;
+    }
+
+    .signIn .leftSec .leftTitle{
+        margin-bottom: 36px;
+        font-size: 1.5rem !important;
+        font-family: 'Nato Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    .signIn .detailBox p{
+        font-size: 1.125rem ;
+    }
+
+    .signIn .formGroup label {
+        margin-bottom: 8px;
+    }
+    .signIn .formGroup {
+        margin-bottom: 24px;
+    }
+    .signIn .formWrap {
+        min-height: 310px;
+    }
+
+    .signIn .inputControl{
+        height: 50px;
+    }
+
+    .rightSign p, .rightSign span {
+        font-size: 1rem !important;
+    }
+
+    .rightSign .mt8{
+        margin-top: 8px;
+    }
+}

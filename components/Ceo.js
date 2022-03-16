@@ -11,12 +11,12 @@ const CeoSection = () =>{
                 <div className={`d-flex align-items-center`}>
                     <div className={`${styles.leftSection}`}>
                         <img src="./ceo1.png" alt="ceo" />
-                        <p className={styles.ceoName}>Manish Kothari - CEO</p>
+                        <p className={`${styles.ceoName}`}>Manish Kothari - CEO</p>
                     </div>
                     <div className={styles.rightSection}>
                         <p className={styles.firstLine}>"So far only the rich have had access to the right financial advice</p>
                         <p className={styles.secondLine}>We are changing that by ensuring every investor has a dedicated experts to maximize your gains"</p>
-                        <p className={styles.ceo}>- Manish Kothari - CEO</p>
+                        <p className={`${styles.ceo} ${styles.deskHide}`}>- Manish Kothari - CEO</p>
                     </div>
                 </div>
             </div>

@@ -143,6 +143,12 @@
     color: white;
 }
 
+@media (min-width: 960px){
+    .deskHide{
+        display: none;
+    }
+}
+
 
 @media (max-width: 959px){
     .leftSection{

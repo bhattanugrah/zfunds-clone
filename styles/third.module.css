@@ -105,6 +105,9 @@ hr.lineBreak{
 
 
 
+
+
+
 .carouselSection{
     display: flex;
     overflow-x: auto;
@@ -114,6 +117,17 @@ hr.lineBreak{
 .leftContainer .leftContent .title p:nth-child(2){
     margin-left: 1rem;
 }
+
+
+@media (min-width: 1522px){
+    .carouselSection a{
+        width: 30%;
+        margin: auto;
+        max-width: 33%;
+    }  
+    
+}
+
 
 @media (max-width: 1521px) and (min-width: 960px){
     /* .carouselItem a img{
@@ -130,11 +144,11 @@ hr.lineBreak{
         margin-top: 2rem;
     }
 
-    .carouselSection a{
+    /* .carouselSection a{
         width: 30%;
         margin: auto;
         max-width: 33%;
-    }
+    } */
     
 }
 
@@ -187,14 +201,14 @@ hr.lineBreak{
     }
 
     .carouselSection a img{
-        width: 254px;
-        max-width: 254px;
-        min-width: 110px;
+        width: 254px !important;
+        max-width: 254px !important;
+        min-width: 110px !important;
         background: #ddd;
         text-align: center;
         line-height: 110px;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
     }
 
 }
