@@ -47,15 +47,15 @@ const ThirdSection = () =>{
                     </p>
                 </div>
                 <div className={`${styles.carouselSection}`}>
-                    <div className={styles.carouselItem}>
-                        <a><img src="./homecarousel1.png" className="img-fluid" alt="carousel-1" /></a>
-                    </div>
-                    <div className={styles.carouselItem}>
-                        <a><img src="./homecarousel2.png"  className="img-fluid" alt="carousel-2" /></a>
-                    </div>
-                    <div className={styles.carouselItem}>
-                        <a><img src="./homecarousel3.png"  className="img-fluid"  alt="carousel-3" /></a>
-                    </div>
+                    {/* <div className={styles.carouselItem}> */}
+                    <a><img src="./homecarousel1.png" className="img-fluid" alt="carousel-1" /></a>
+                    {/* </div> */}
+                    {/* <div className={styles.carouselItem}> */}
+                    <a><img src="./homecarousel2.png"  className="img-fluid" alt="carousel-2" /></a>
+                    {/* </div> */}
+                    {/* <div className={styles.carouselItem}> */}
+                    <a><img src="./homecarousel3.png"  className="img-fluid"  alt="carousel-3" /></a>
+                    {/* </div> */}
                 </div>
             </div>
         </div>

@@ -76,4 +76,71 @@
     color: #052f5f;
 }
 
+.deskHide{
+    display: none;
+}
+
+
+@media (max-width: 959px){
+    .copyrightMobile{
+        display: block !important;
+        width: 100%;
+        border: 0 !important;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .mobHide{
+        display: none;
+    }
+
+    .deskHide{
+        display: block;
+    }
+
+    .alignItemFlexEnd{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1024px){
+    .social{
+        justify-content: center;
+    }
+
+    .copyrightMobile{
+        font-size: 0.75rem;
+        margin-top: 20px;
+    }
+
+    .flw{
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: #fff;
+        margin-left: -36px;
+        margin-right: -36px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mobHide{
+        display: none;
+    }
+    
+    .deskHide{
+        display: block;
+    }
+
+    .apps{
+        display: flex !important;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1.5px solid #eee !important;
+        border-top: 1.5px solid #eee !important;
+    }
+}
+
 

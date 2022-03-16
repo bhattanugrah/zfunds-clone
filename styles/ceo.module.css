@@ -69,3 +69,126 @@
 .rec.rec-arrow {
     color: white !important;
 }
+
+.rightSection .ceoName{
+    display: none;
+}
+
+
+.reviewSectionMobile{
+    display: flex;
+    overflow-x: auto;
+    padding-right: 1rem;
+}
+
+.reviewMobile{
+    flex: 1 1 0%;
+    margin-left: 1.5rem;
+}
+
+.reviewM{
+    display: flex;
+    min-width: 296px;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 18px;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+.reviewTitle{
+    font-size: 1.3rem !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reviewBox{
+    margin: 2rem 0;
+    padding: 1rem;
+    min-height: 298px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff; 
+}
+
+.reviewContainer .writeUp{
+    min-height: 154px;
+    color: #052f5f;
+    font-size: 1rem !important;
+    font-family: 'Nato Sans', sans-serif;
+}
+
+.userImage{
+    display: flex;
+    align-items: center;
+}
+
+.userImage img{
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 1rem;
+    border-radius: 100%;
+}
+
+.userImage .userName{
+    font-weight: bold;
+    color: rgb(5, 47, 95);
+}
+
+.reviewTitle{
+    color: white;
+}
+
+
+@media (max-width: 959px){
+    .leftSection{
+        display: none;
+    }
+
+    .rightSection .firstLine{
+        font-size: 1.2rem;
+    }
+
+    .rightSection .secondLine{
+        font-size: 1rem;
+    }
+
+    .rightSection .ceo{
+        display: block;
+        font-family: 'Nato Sans', sans-serif;
+        font-size: 1rem !important;
+        font-weight: 700;
+        color: white;
+    }
+
+    .rightSection{
+        padding: 2rem 1rem;
+    }
+
+    .reviewCarousel{
+        display: none;
+    }
+
+    .reviewSection{
+        display: none;
+    }
+
+    .reviewSectionMobile{
+        background: transparent linear-gradient(263deg, #052F5F 0%, #010913 100%);
+        padding: 1rem 0;
+    }
+
+    .reviewMobile{
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 1521px) and (min-width: 960px){
+    .reviewSectionMobile{
+        display: none;
+    }
+}

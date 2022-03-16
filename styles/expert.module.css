@@ -48,3 +48,52 @@
     margin-top: -0.01rem;
     margin-bottom: 3rem;
 }
+
+@media (max-width: 959px){
+    .expertImg{
+        display: none;
+    }
+
+    .expertContainer{
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .expertText{
+        text-align: center;
+    }
+
+    .expertText p:nth-child(1){
+        font-size: 1.5rem !important;
+    }
+
+    .expertText p:nth-child(2){
+        font-size: 1rem !important;
+    }
+
+    .getStartedBtn{
+        width: fit-content;
+        margin: 2rem auto;
+        position: relative;
+    }
+
+    .expertContainerChild{
+        flex: 2;
+        text-align: center;
+    }
+
+    .getStartedBtn button{
+        font-size: 15px;
+        width: 250px;
+        height: 36px;
+        background: #03A87C;
+        text-transform: none;
+    }
+
+    .divider{
+        margin-top: -17px;
+        max-height: 50px;
+    }
+
+
+}

@@ -30,3 +30,19 @@
     color: #052F5F;
 }
 
+@media (max-width: 959px){
+    .mainContainer{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .leftSide p{
+        font-size: 1.3rem !important;
+    }
+
+    .leftSide{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+

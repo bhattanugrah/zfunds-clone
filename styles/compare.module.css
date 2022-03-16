@@ -74,6 +74,10 @@
     }
 }
 
+.comparisonSectionMobile{
+    display: none;
+}
+
 @media (max-width: 959px){
     .comparisonSection{
         padding: 3rem 0;
@@ -85,4 +89,42 @@
     .subTitle{
         font-size: 1rem;
     }
+
+    .comparisonSection{
+        display: none;
+    }
+    
+    .comparisonSectionMobile{
+        display: flex;
+        padding: 3rem 0;
+        justify-content: center;
+    }
+
+    .comparisonSectionMobile img{
+        max-width: 100%;
+    }
+
+    .comparisonFooter .footerTitle{
+        font-size: 1rem !important;
+        text-align: center;
+    }
+
+    .viewBtn{
+        margin: 2rem auto;
+        position: relative;
+    }
+
+    .viewBtn button{
+        width: 100%;
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .mainContainer{
+        padding: 1rem;
+        margin-top: -0.99rem;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
 }

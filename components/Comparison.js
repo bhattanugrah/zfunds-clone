@@ -17,6 +17,9 @@ export const Comparison = () =>{
             <div className={styles.comparisonSection}>
                 <img src="./compare.png" alt="comparison"/>
             </div>
+            <div className={styles.comparisonSectionMobile}>
+                <img src="./m-compare.png" alt="comparison" />
+            </div>
             <div className={styles.comparisonFooter}>
                 <p className={styles.footerTitle}>
                     Know more about how we pick top funds and create the best possible portfolio for you

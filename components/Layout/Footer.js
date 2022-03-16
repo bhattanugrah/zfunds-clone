@@ -4,11 +4,13 @@ import styles from "../../styles/footer.module.css"
 
 export const Footer = () =>{
     return(
+        <>
+        <p className={styles.copyrightMobile}>Copyright @ 2022 ZFunds | All rights reserved</p>
         <div className={styles.footer}>
             <div className={styles.footerContainer}>
                 <div className={`row`}>
-                    <div className="col-md-3  d-flex justify-content-between flex-column">
-                        <div className="social d-flex">
+                    <div className="col-lg-3 col-12  d-flex justify-content-lg-between justify-content-center text-center flex-column py-5">
+                        <div className={`d-flex ${styles.social}`}>
                             <div className={`icon d-flex justify-content-center ${styles.icon}`}>
                                 <a><img src="./linkedin.svg" alt="linked-in"/></a>
                             </div>
@@ -30,7 +32,7 @@ export const Footer = () =>{
                         </div>
 
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-12 col-12 ">
                         <div className={`d-flex justify-content-between ${styles.flw}`}>
                             <div className={styles.f1}>
                                 <p className="font-w">EXPLORE</p>
@@ -54,7 +56,7 @@ export const Footer = () =>{
                                     </div>
                                 </div>
                             </div>
-                            <div className={styles.f1}>
+                            <div className={`${styles.f1} ${styles.mobHide}`}>
                                 <p className={styles.fontW}>BUSINESS</p>
                                 <div className="d-flex justify-content-between">
                                     <div className="list2 mb10">
@@ -62,7 +64,21 @@ export const Footer = () =>{
                                     </div>
                                 </div>
                             </div>
-                            <div className={styles.f1}>
+                            <div className={`${styles.f1} ${styles.deskHide}`}>
+                                <p className={styles.fontW}>BUSINESS</p>
+                                <div className="justify-content-between">
+                                    <div className="list2 mb10">
+                                        <a href="/advisor" title="Become ZF Expert">Become ZF Expert</a>
+                                    </div>
+                                    <div className={styles.deskHide}>
+                                        <p className={styles.fontW}>LEGAL</p>
+                                        <div className="list2">
+                                            <a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={`${styles.f1} ${styles.mobHide}`}>
                                 <p className={styles.fontW}>LEGAL</p>
                                 <div className="list2">
                                     <a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a>
@@ -80,6 +96,11 @@ export const Footer = () =>{
                 </div>
             </div>
         </div>
+        <div className={`${styles.apps} justify-content-center align-items-end ${styles.deskHide}`}>
+            <img className="me-4" src="./app-store.png" alt="app-store" />
+            <img src="./play-store.png" alt="play-store" />
+        </div>
+        </>
     )
 }
 
