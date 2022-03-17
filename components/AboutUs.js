@@ -24,7 +24,7 @@ const AboutUs = () =>{
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div className={`accordion-body ${styles.accordionBody}`}>
-                                    ZFunds is India's only Mutual Funds Platform where you can get advice from top experts about your investments.You can download our app or send us a message on WhatsApp and an expert will help you plan your investments.
+                                    {"ZFunds is India's only Mutual Funds Platform where you can get advice from top experts about your investments.You can download our app or send us a message on WhatsApp and an expert will help you plan your investments."}
                                     <div className="mt-3">
                                         <a href="#">Know more about us</a>
                                     </div>

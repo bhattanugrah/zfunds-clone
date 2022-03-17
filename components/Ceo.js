@@ -14,8 +14,8 @@ const CeoSection = () =>{
                         <p className={`${styles.ceoName}`}>Manish Kothari - CEO</p>
                     </div>
                     <div className={styles.rightSection}>
-                        <p className={styles.firstLine}>"So far only the rich have had access to the right financial advice</p>
-                        <p className={styles.secondLine}>We are changing that by ensuring every investor has a dedicated experts to maximize your gains"</p>
+                        <p className={styles.firstLine}>{'"So far only the rich have had access to the right financial advice'}</p>
+                        <p className={styles.secondLine}>{'We are changing that by ensuring every investor has a dedicated experts to maximize your gains"'}</p>
                         <p className={`${styles.ceo} ${styles.deskHide}`}>- Manish Kothari - CEO</p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const CeoSection = () =>{
                         <div className={styles.reviewBox}>
                             <div className={styles.reviewContainer}>
                                 <p className={styles.writeUp}>
-                                    "Nice app. Easy to view your portfolio and invest more. User friendly and easy to contact your advisor on one click"
+                                    {'"Nice app. Easy to view your portfolio and invest more. User friendly and easy to contact your advisor on one click"'}
                                 </p>
                                 <div className={styles.userImage}>
                                     <img src="./c1.png" alt="user1" />
@@ -71,7 +71,7 @@ const CeoSection = () =>{
                         <div className={styles.reviewBox}>
                             <div className={styles.reviewContainer}>
                                 <p className={styles.writeUp}>
-                                    "Amazing app and company for mutual fund investments in India. Personalized Expert Advice available for your best benefit. Love it"
+                                    {'"Amazing app and company for mutual fund investments in India. Personalized Expert Advice available for your best benefit. Love it"'}
                                 </p>
                                 <div className={styles.userImage}>
                                     <img src="./c2.png" alt="user1" />
@@ -91,7 +91,7 @@ const CeoSection = () =>{
                         <div className={styles.reviewBox}>
                             <div className={styles.reviewContainer}>
                                 <p className={styles.writeUp}>
-                                    "I am very happy with the review of my portfolio. Mr.Akshit answered all my questions and helped me make a healthy portfolio with a great SWP plan"
+                                    {'"I am very happy with the review of my portfolio. Mr.Akshit answered all my questions and helped me make a healthy portfolio with a great SWP plan"'}
                                 </p>
                                 <div className={styles.userImage}>
                                     <img src="./c3.png" alt="user1" />

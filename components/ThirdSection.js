@@ -43,7 +43,7 @@ const ThirdSection = () =>{
                         <span>Know Your Funds - </span>in the language you understand
                     </p>
                     <p className={`${styles.knowYourFundsSubTitle}`}>
-                        We don't use jargons, ratios or numbers to explain you anything. We do this in 6 languages
+                        {"We don't use jargons, ratios or numbers to explain you anything. We do this in 6 languages"}
                     </p>
                 </div>
                 <div className={`${styles.carouselSection}`}>
