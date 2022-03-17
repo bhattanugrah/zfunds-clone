@@ -76,7 +76,7 @@
     line-height: 1.42;
 }
 
-@media (max-height: 959px){
+@media (max-width: 959px){
     .portfolioLoginModal .rightSign {
         position: static;
         text-align: left;
@@ -87,10 +87,6 @@
     .signIn .formWrap{
         min-height: 0;
         margin-bottom: 1rem;
-    }
-
-    .signIn .leftSec{
-        height: auto;
     }
 
     .portfolioLoginModal .signIn{
