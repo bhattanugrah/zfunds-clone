@@ -211,6 +211,31 @@ hr.lineBreak{
         margin-right: 1rem !important;
     }
 
+    .title p{
+        display: flex;
+    }
+
+    .leftContainer{
+        max-width: 100%;
+    }
+
+    .title p{
+        flex-wrap: wrap;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .leftContent{
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    .leftContainer .title p{
+        flex-wrap: wrap;
+        margin-right: 0;
+        justify-content: center;
+    }
+
 }
 
 
